@@ -1,0 +1,12 @@
+.nav-container {
+    background-color: transparent;
+    
+    .icon {
+        width: 110px;
+        margin-left: -1.5%;
+      
+        @media (max-width: 500px) {
+          margin-left: -7%;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: transparent;
+
+    .website {
+        font-family: 'Teko', sans-serif;
+
+        @media (max-width: 500px) {
+          font-size: 12px;
+          padding: 5px;
+        }
+    }
+
+    .footer-link {
+        margin: 10px;
+        color: black;
+    }
+}
