@@ -1,4 +1,5 @@
 import React from 'react'
+import bike from "../images/bike.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHandPointDown } from "@fortawesome/free-solid-svg-icons"
 import Layout from "../components/layout"
@@ -11,6 +12,10 @@ function About(props) {
       <div className="about-container">
 
         <h1 className="title">About Me</h1>
+
+        <div className="animation">
+          <img src={bike} alt="bike" />
+        </div>
 
         <div className="information">
           <h5>
