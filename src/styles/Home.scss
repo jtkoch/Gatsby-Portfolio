@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 3%;
+    padding: 0%;
 
     .hero-container {
         display: flex;
@@ -23,21 +23,17 @@
         }
     
         .big {
-            font-size: 4.5rem;
-            font-weight: 800;
-            padding: 2%;
-        
-            @media (max-width: 500px) {
-                font-size: 3rem;
-            }
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-bottom: 8%;
         }
     
         .small {
             font-size: 1.25rem;
             width: 100%;
             font-weight: 500;
-            padding: .5%;
-            
+            padding-left: 8%;
+            padding-right: 8%;
         
             @media (max-width: 500px) {
                 font-size: 1rem;
@@ -46,7 +42,9 @@
     }
 
     .fonts {
-        font-size: 2rem;
+        font-size: 1.75rem;
         padding-bottom: 2%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 }
