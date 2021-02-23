@@ -1,5 +1,4 @@
 import React from 'react'
-import bike from "../images/bike.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHandPointDown } from "@fortawesome/free-solid-svg-icons"
 import Layout from "../components/layout"
@@ -13,14 +12,10 @@ function About(props) {
 
         <h1 className="title">About Me</h1>
 
-        <div className="animation">
-          <img src={bike} alt="bike" />
-        </div>
-
         <div className="information">
           <h5>
-            I'm now attending Lambda School's Full Stack Web Development
-            Program. My strengths are coding in JavaScript Frameworks but I am a
+            I am a full stack software engineer currently based in St. Louis, Missouri. 
+            My strengths are coding in JavaScript Frameworks but I am a
             lifelong learner who strives for growth. I look forward to
             challenges that will further develop and expand my skill set in web
             development.
