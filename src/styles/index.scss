@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
 
 @import './About.scss';
 @import './Contact.scss';
@@ -16,5 +17,7 @@ html, body {
     font-size: 16px;
     text-align: center;
     height: 100%;
-    background-image: url(../images/background.png);
+    width: 100%;
+    background-image: url(../images/background2.png);
+    background-position: top;
 }

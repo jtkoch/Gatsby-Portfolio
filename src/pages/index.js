@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import name from "../images/Jensen.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { 
@@ -25,7 +24,7 @@ const Home = (props) => (
 
       <div className="hero-container">
         <div className="header">
-          <img className="big" src={name} alt="name" />
+          <h1 className="big">Jensen Koch</h1>
           <h3 className="small">
             I'm a full stack developer currently working for <a href="https://galaxe.com/">Galaxe.Solutions</a> <br/>
             I particularly enjoy frontend development (React and Gatsby).

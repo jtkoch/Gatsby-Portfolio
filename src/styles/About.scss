@@ -5,9 +5,14 @@
     padding-bottom: 7%;
 
     .title {
-        font-size: 5rem;
-        font-weight: 800;
-        padding: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 8%;
+        padding-top: 5%;
+        color: whitesmoke;
+        text-shadow: 4px 4px rgb(255, 144, 92);
+        font-size: 10rem;
+        font-weight: 900;
 
         @media (max-width: 500px) {
             font-size: 3rem;
@@ -17,6 +22,7 @@
     .information {
         padding-left: 18%;
         padding-right: 18%;
+        color: whitesmoke;
 
         h5 {
             font-size: 2rem;
@@ -28,8 +34,10 @@
     }
 
     .band {
-        text-decoration: none;
-        font-size: 1.75rem;
+        color: rgb(255, 144, 92);
+        text-shadow: 1px 1px whitesmoke;
+        font-weight: 900;
+        font-size: 3.25rem;
     }
 
     .point {

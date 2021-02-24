@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import icon from '../images/skulllogo.png'
+import icon from '../images/skulllogo_white.png'
 import resume from '../images/resume.pdf'
 
 import Container from 'react-bootstrap/Container'
@@ -16,10 +16,10 @@ function Header() {
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-collapse">
             <Nav className="ml-auto">
-              <Link style={{color: "black"}} className="nav-link" to="/" >Home</Link>
-              <Link style={{color: "black"}} className="nav-link" to="/About" >About</Link>
-              <Link style={{color: "black"}} className="nav-link" to="/Contact" >Contact</Link>
-              <a style={{color: "black"}} className="nav-link" href = {resume} target = "_blank" without rel="noopener noreferrer">Resume</a>
+              <Link style={{color: "whitesmoke"}} className="nav-link" to="/" >Home</Link>
+              <Link style={{color: "whitesmoke"}} className="nav-link" to="/About" >About</Link>
+              <Link style={{color: "whitesmoke"}} className="nav-link" to="/Contact" >Contact</Link>
+              <a style={{color: "whitesmoke"}} className="nav-link" href = {resume} target = "_blank" without rel="noopener noreferrer">Resume</a>
             </Nav>
           </Navbar.Collapse>
       </Navbar>
