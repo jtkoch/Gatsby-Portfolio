@@ -21,21 +21,22 @@ class SimpleSlider extends Component {
       slidesToShow: 3,
       slidesToScroll: 1,
       autoplaySpeed: 2000,
+      arrows: false,
       fadeIn: true,
       autoplay: true,
     }
     return (
       <div className="slider-container">
         <Slider {...settings}>
-            <FontAwesomeIcon className="icon-1" icon={faHtml5}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-2" icon={faCss3}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-3" icon={faSass}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-8" icon={faPython}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-4" icon={faJsSquare}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-5" icon={faReact}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-6" icon={faNodeJs}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-7" icon={faWordpress}></FontAwesomeIcon>
-            <FontAwesomeIcon className="icon-9" icon={faJava}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faHtml5}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faCss3}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faSass}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faPython}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faJsSquare}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faReact}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faNodeJs}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faWordpress}></FontAwesomeIcon>
+            <FontAwesomeIcon className="icon" icon={faJava}></FontAwesomeIcon>
         </Slider>
       </div>
     )
