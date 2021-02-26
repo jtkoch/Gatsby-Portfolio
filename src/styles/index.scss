@@ -15,7 +15,7 @@
 
 $font: 'Josefin Sans', sans-serif;
 
-html, body {
+body {
     font-family: $font;
     font-size: 16px;
     text-align: center;
@@ -24,3 +24,7 @@ html, body {
     background-image: url(../images/background2.png);
     background-position: top;
 }
+
+.dark-mode {
+    background-image: url(../images/background2_dark.png);
+  }
