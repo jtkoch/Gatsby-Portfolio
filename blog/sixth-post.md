@@ -1,0 +1,7 @@
+---
+path: /blog/sixth-post
+date: 2021-01-12
+title: Test 6
+image: ../static/assets/test6.jpg
+---
+This is a test with the picture in landscape view.
