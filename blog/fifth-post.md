@@ -1,6 +1,6 @@
 ---
 path: /blog/fifth-post
-date: 2021-03-02
+date: 2021-03-02T18:41:53.303Z
 title: Test 5
 image: ../static/assets/test5.jpg
 ---
