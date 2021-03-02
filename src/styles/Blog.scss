@@ -8,9 +8,10 @@
         .card {
             margin: 15px;
             width: 260px;
-            height: 600px;
+            height: 100%;
             align-items: center;
             background-color: whitesmoke;
+            box-shadow: 3px 3px 7px 1px black;
 
             @media(max-width: 350px) {
                 margin-left: 0px;
@@ -20,32 +21,33 @@
             }
 
             .post-title {
-                font-size: 2.5rem;
+                font-size: 1.75rem;
+                font-weight: 900;
                 text-align: center;
                 color: #ff5a07;
-                text-shadow: 2px 2px black;
-                padding: 1px;
+                text-decoration: underline;
+                padding: 8px;
             }
 
             .thumbnail {
                 width: 225px;
             }
 
-            .excerpt {
-                padding: 5px;
-            }
-
             p {
                 color: #ff5a07;
-                font-size: .75rem;
+                font-size: 1rem;
                 width: 200px;
-                padding: 0px;
+            }
+
+            .excerpt {
+                padding-top: 12px;
+                font-size: 1rem;
             }
 
             .button {
                 display: inline-block;
                 padding: .5rem 1rem;
-                margin-top: 550px;
+                margin-bottom: 10px;
                 border-radius: 10rem;
                 color: white;
                 text-shadow: 1px 1px black;
@@ -53,7 +55,7 @@
                 font-size: .75rem;
                 letter-spacing: .15rem;
                 transition: all .3s;
-                position: absolute;
+                position: relative;
                 overflow: hidden;
                 z-index: 1;
 
