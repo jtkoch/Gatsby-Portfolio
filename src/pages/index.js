@@ -5,7 +5,7 @@ import Slider from '../components/Slider'
 import Carousel from '../components/Carousel'
 
 
-const Home = (props) => (
+const Home = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home-container">

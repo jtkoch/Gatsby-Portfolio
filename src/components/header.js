@@ -26,6 +26,7 @@ function Header() {
             <Nav className="ml-auto">
               <Link style={{color: "white"}} className="nav-link" to="/" >Home</Link>
               <Link style={{color: "white"}} className="nav-link" to="/About" >About</Link>
+              {/* <Link style={{color: "white"}} className="nav-link" to="/Blog" >Blog</Link> */}
               <Link style={{color: "white"}} className="nav-link" to="/Contact" >Contact</Link>
               <a style={{color: "white"}} className="nav-link" href = {resume} target = "_blank" without rel="noopener noreferrer">Resume</a>
               <div className="dark-mode__toggle">
