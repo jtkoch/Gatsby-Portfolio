@@ -1,6 +1,6 @@
 ---
 path: /blog/my-first-post
-date: 2021-01-25T17:11:49.160Z
+date: 2021-03-02T18:41:53.303Z
 title: Test 1
 image: ../static/assets/test.jpg
 ---
