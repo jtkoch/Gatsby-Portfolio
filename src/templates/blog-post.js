@@ -16,13 +16,13 @@ const BlogPost = ({ data }) => {
           <div className="blog-post">
             <Link className="button" to="/Blog">← Back</Link>
             <h2 className="blog-post-title">{frontmatter.title}</h2>
+            <div className="blog-post-image">
+              <Img fluid={frontmatter.image.childImageSharp.fluid} />
+            </div>
             <div
               className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
-            <div className="blog-post-image">
-              <Img fluid={frontmatter.image.childImageSharp.fluid} />
-            </div>
           </div>
           <Link className="button" to="/Blog">
             ← Back

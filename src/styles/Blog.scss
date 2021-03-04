@@ -1,6 +1,10 @@
 // Blog.js
 .cards-container {
     padding-top: 4%;
+    padding-bottom: 10%;
+    @media(max-width: 1200px) {
+        padding-bottom: 50%;
+    }
 
     .cards {
         display: inline-block;
@@ -127,13 +131,6 @@
         padding-bottom: 100%;
     }
 
-    .blog-post-title {
-        padding: 3%;
-        color: white;
-        text-shadow: 4px 4px #ff5a07;
-        font-weight: 900;
-    }
-
     .button {
         display: inline-block;
         padding: .5rem 1rem;
@@ -199,17 +196,23 @@
             font-size: 4rem;
             text-align: center;
             color: white;
+            padding: 3%;
+            text-shadow: 4px 4px #ff5a07;
+            font-weight: 900;
             @media (max-width: 700px) {
                 font-size: 2.5rem;
             }
         }
         .blog-post-image {
             margin-bottom: 25px;
+            width: 100%;
         }
         .blog-post-content {
             color: white;
+            text-shadow: 1px 1px black;
             font-size: 1.5rem;
             padding: 1%;
+            width: 100%;
             @media (max-width: 700px) {
                 font-size: .9rem;
             }
