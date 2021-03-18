@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button'
+import { Link } from 'gatsby'
 
 function CardInfo(props) {
 
@@ -7,8 +7,10 @@ function CardInfo(props) {
         <div className="card-info">
             <p className="card-title">{props.title}</p>
             <p className="card-sub-title">{props.subTitle}</p>
-            <Button variant="outline-secondary" className="m-2" size="sm" href={props.code} target=" _blank" rel="noopener noreferrer">Code</Button>
-            <Button variant="outline-primary" className="m-2" size="sm" href={props.link} target=" _blank" rel="noopener noreferrer">View</Button>
+            <div className="buttons">
+              <Link className="button" to={props.code} target=" _blank" rel="noopener noreferrer">Code</Link>
+              <Link className="button" to={props.link} target=" _blank" rel="noopener noreferrer">View</Link>
+            </div>
         </div>
     )
 }

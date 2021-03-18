@@ -25,6 +25,7 @@ const Home = () => (
       
       <Slider />
       <Carousel />
+
     </div>
   </Layout>
 )

@@ -1,8 +1,9 @@
 .slider-container {
-    width: 50%;
-    font-size: 4rem;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  display: inline-block;
+  width: 50%;
+  font-size: 4rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
     @media(max-width: 800px) {
         font-size: 2.5rem;
