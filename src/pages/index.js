@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Slider from '../components/Slider'
-import Carousel from '../components/Carousel'
+import JobCard from '../components/JobCard'
 
 
 const Home = () => (
@@ -24,7 +24,7 @@ const Home = () => (
 
       
       <Slider />
-      <Carousel />
+      <JobCard />
 
     </div>
   </Layout>

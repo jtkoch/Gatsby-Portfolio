@@ -1,0 +1,139 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px 0px 25px 0px;
+  margin: 0px;
+
+  .card {
+    width: 300px;
+    height: 600px;
+    background: linear-gradient(
+        to left,
+        #222,
+        #333,
+        #555
+      ) repeat; 
+    border-radius: 6px;
+    margin: 25px 0px 25px 0px;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+
+    &__svg {
+      position: absolute;
+      left: 0;
+      top: 165px;
+    }
+    
+    &__line {
+    opacity: 0;
+    animation: LineFadeIn .8s 1.8s forwards ease-in;
+    }
+    
+    &__content {
+      margin-top: 3rem;
+      opacity: 0;
+      animation: ContentFadeIn .8s 2.5s forwards;
+    }  
+
+    &__image-container {
+      margin: -3.5rem -2rem 1rem -2rem;
+    }
+
+    &__image {
+      width: 300px;
+      opacity: 0;
+      animation: ImageFadeIn .8s 2.1s forwards;
+    }    
+
+    &__info {
+      color: #ff5a07;
+      font-weight: 800;
+      letter-spacing: 0.01em;
+
+      .card-title {
+        font-size: 30px;
+        margin-top: 6rem;
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+      
+      .card-sub-title {
+        font-size: 16px;
+        margin: 10px;
+      }
+    
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 10%;
+    
+        .button {
+          display: inline-block;
+          padding: .5rem 1rem;
+          border-radius: 10rem;
+          color: white;
+          text-shadow: 1px 1px black;
+          text-transform: uppercase;
+          font-size: .75rem;
+          letter-spacing: .15rem;
+          transition: all .3s;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+    
+          &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            border-radius: 10rem;
+            z-index: -2;
+          }
+          &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: black;
+            transition: all .3s;
+            border-radius: 10rem;
+            z-index: -1;
+          }
+          &:hover {
+            color: white;
+            text-shadow: 1px 1px black;
+            text-decoration: none;
+            &:before {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes LineFadeIn {
+  0% { opacity: 0; d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "); stroke: #fff; }
+  50% { opacity: 1; d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300"); stroke: #ff5a07; }
+  100% { opacity: 1; d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400"); stroke: #777; }
+}
+
+@keyframes ContentFadeIn {
+  0% { transform: translateY(-1rem); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes ImageFadeIn {
+  0% { transform: translate(-.5rem, -.5rem) scale(1.05); opacity: 0; filter: blur(2px); }
+  50% { opacity: 1; filter: blur(2px); }
+  100% { transform: translateY(0) scale(1.0); opacity: 1; filter: blur(0); }
+}
