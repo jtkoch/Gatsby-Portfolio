@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import {useDarkMode} from '../hooks/useDarkMode'
 import icon from '../images/skulllogo_gradient.png'
-import resume from '../images/resume.pdf'
+import resume from '../images/JKoch-Resume.pdf'
 
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
