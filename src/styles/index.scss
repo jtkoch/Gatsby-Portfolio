@@ -22,10 +22,25 @@ body {
     text-align: center;
     height: 100%;
     width: 100%;
-    background-image: url(../images/background2.png);
-    background-position: top;
+    background: linear-gradient(
+      -30deg,
+      #acacac,
+      #939393,
+      #7b7b7b,
+      #626262,
+      #4a4a4a,
+      #313131,
+      #181818
+    ) repeat;
 }
 
 .dark-mode {
-    background-image: url(../images/background2_dark.png);
+    background: linear-gradient(
+      -30deg,
+      #f8b195,
+      #f67280,
+      #c06c84,
+      #6c5b7b,
+      #355c7d
+    ) repeat; 
   }
