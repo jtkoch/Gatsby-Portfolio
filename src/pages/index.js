@@ -9,17 +9,16 @@ const Home = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home-container">
-      <svg className="svg" viewBox="0 0 800 850">
+      <svg className="svg" viewBox="0 0 800 800">
         <path
-            d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500"
             stroke="transparent"
             fill="transparent"
         />
         <path
           className="line"
-          d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
+          d="M -40 0 C 30 120 60 60 120 120 C 180 180 210 30 270 120 C 330 210 390 210 420 120 C 450 30 540 30 630 90 C 720 150 810 210 870 0 "
           fill="black"
-          stroke-width=".3"
+          stroke-width="1"
           fill-opacity=".75"
         />
       </svg>
