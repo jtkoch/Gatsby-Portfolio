@@ -20,6 +20,8 @@ body {
     font-family: $font;
     font-size: 16px;
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
     height: 100%;
     width: 100%;
     background: linear-gradient(
@@ -33,11 +35,11 @@ body {
 
 .dark-mode {
     background: linear-gradient(
-      -30deg,
-      #f8b195,
-      #f67280,
-      #c06c84,
-      #6c5b7b,
-      #355c7d
+      300deg,
+      #eee,
+      #ddd,
+      #ccc,
+      #bbb,
     ) repeat; 
+    color: #222;
   }

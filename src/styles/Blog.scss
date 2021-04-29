@@ -33,7 +33,7 @@
                 font-size: 1.75rem;
                 font-weight: 900;
                 text-align: center;
-                color: #ff5a07;
+                color: white;
                 text-decoration: underline;
                 padding: 8px;
             }
@@ -43,7 +43,7 @@
             }
 
             p {
-                color: #ff5a07;
+                color: white;
                 font-size: 1rem;
                 width: 200px;
             }
@@ -200,7 +200,6 @@
         .blog-post-title {
             font-size: 4rem;
             text-align: center;
-            color: white;
             padding: 3%;
             text-shadow: 4px 4px #ff5a07;
             font-weight: 900;
@@ -213,8 +212,6 @@
             width: 100%;
         }
         .blog-post-content {
-            color: white;
-            text-shadow: 1px 1px black;
             font-size: 1.5rem;
             padding: 1%;
             width: 100%;

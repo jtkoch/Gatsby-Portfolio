@@ -21,7 +21,7 @@ function Header() {
     <Container className="pl-auto nav-container" fluid={true}>
       <Navbar expand="lg">
           <Link to="/" ><img className="icon" src={icon} alt="logo" /></Link>
-          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+          <Navbar.Toggle className="border-0 navbar-dark" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-collapse">
             <Nav className="ml-auto">
               <Link style={{color: "white"}} className="nav-link" to="/" >Home</Link>

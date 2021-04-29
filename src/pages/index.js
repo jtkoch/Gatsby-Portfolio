@@ -9,20 +9,36 @@ const Home = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home-container">
-      <svg className="svg" viewBox="0 0 800 800">
-        <path
-            stroke="transparent"
-            fill="transparent"
-        />
-        <path
-          className="line"
-          d="M -40 0 C 30 120 60 60 120 120 C 180 180 210 30 270 120 C 330 210 390 210 420 120 C 450 30 540 30 630 90 C 720 150 810 210 870 0 "
-          fill="black"
-          stroke-width="1"
-          fill-opacity=".75"
-        />
-      </svg>
-
+      <div className="big-screen">
+        <svg className="svg" viewBox="0 0 800 800">
+          <path
+              stroke="transparent"
+              fill="transparent"
+          />
+          <path
+            className="line"
+            d="M -40 0 C 30 120 60 60 120 120 C 180 180 210 30 270 120 C 330 210 390 210 420 120 C 450 30 540 30 630 90 C 720 150 810 210 870 0 "
+            fill="black"
+            stroke-width="1"
+            fill-opacity=".95"
+          />
+        </svg>
+      </div>
+      <div className="small-screen">
+        <svg className="svg" viewBox="0 0 800 800">
+          <path
+              stroke="transparent"
+              fill="transparent"
+          />
+          <path
+            className="line"
+            d="M -40 0 C 30 120 60 60 120 120 C 180 180 210 30 270 120 C 330 210 390 210 420 120 C 450 30 540 30 630 90 C 720 150 810 210 870 0 "
+            fill="black"
+            stroke-width="1"
+            fill-opacity=".95"
+          />
+        </svg>
+      </div>
       <div className="hero-container">
         <div className="header">
           <h1 className="big">Jensen Koch</h1>

@@ -6,9 +6,6 @@
     background-color: transparent;
 
     .website {
-        color: white;
-        text-shadow: 1px 1px black;
-
         @media (max-width: 500px) {
           font-size: 12px;
           padding: 5px;
@@ -17,6 +14,6 @@
 
     .footer-link {
         margin: 10px;
-        color: #ff5a07 ;
+        color: #ff5a07;
     }
 }
