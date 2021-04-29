@@ -14,20 +14,21 @@ class Blog extends React.Component {
       <Layout>
         <SEO title="Blog" />
         <div className="cards-container">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div key={post.id} className="cards" >
-                <div className="card">
-                  <Link className="post-title" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-                  <p>{post.frontmatter.date}</p>
-                  <div className="thumbnail" >
-                    <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
-                  </div>
-                  <p className="excerpt">{post.excerpt}</p>
-                  <Link className="button" to={post.frontmatter.path}>Keep Reading →</Link>
+          <h1 className="title">Blog</h1>
+          {posts &&
+            posts.map(({ node: post }) => (
+              <div key={post.id} className="cards" >
+                  <div className="card">
+                    <Link className="post-title" to={post.frontmatter.path}>{post.frontmatter.title}</Link>
+                    <p>{post.frontmatter.date}</p>
+                    <div className="thumbnail" >
+                      <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
+                    </div>
+                    <p className="excerpt">{post.excerpt}</p>
+                    <Link className="button" to={post.frontmatter.path}>Keep Reading →</Link>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
           </div>
       </Layout>
     )
