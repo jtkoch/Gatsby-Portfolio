@@ -43,9 +43,8 @@ const Home = () => (
         <div className="header">
           <h1 className="big">Jensen Koch</h1>
           <h3 className="small">
-            I'm a full stack developer currently working for{" "}
-            <a href="https://galaxe.com/">Galaxe.Solutions</a>. I particularly
-            enjoy frontend development (React!).
+            I'm a Software Engineer currently working for{" "}
+            <a href="https://mastery.net/">Mastery Logistics System</a> as a Site Reliability Engineer.
           </h3>
           <br />
           <h3 className="small">Check out my projects below</h3>
